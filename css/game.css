@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__main{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    justify-content: space-between;
+    max-width: 100%;
+}
+.Icon a{
+    display: flex;
+    text-decoration: none;
+}
+.Icon i{
+    font-size: 3.4rem;
+    margin: 5px;
+}
+.Icon p{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    color: #000;
+}
+
+.headerSeach{
+    display: flex;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    width: 55%;
+    align-items: center;
+}
+.headerSeach i{
+    font-size: 1.5rem;
+    padding: 3px;
+    padding-bottom: 0;
+}
+.headerSeach > input{
+    border: none;
+    width: 100%;
+    padding: 2px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.headerPlayer{
+    display: flex;
+    margin: 5px;
+    margin-left: 5%;
+    
+}
+.headerPlayer:hover{
+    background-color: #c4c4c4;
+}
+.headerPlayer a{
+    border: 2px;
+    border-radius: 8px;
+}
+.headerPlayer p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #414141;
+    margin: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.headerNotifications i{
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 20%;
+}
+.headerNotifications i:hover{
+    background-color: #c4c4c4;
+    color: red;
+}
+
+.headerRobux{
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    position: relative;
+    align-items: center;
+}
+.headerRobux:hover{
+    background-color: #c4c4c4;
+    color: red;
+}
+.headerRobux .headerRobux__item{
+    position: absolute;
+    top: 60%;
+    left: -100px;
+    background-color: #c4c4c4;
+    width: 200px;
+    opacity: 0;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+.headerRobux:hover .headerRobux__item{
+    opacity: 1;
+}
+.headerRobux__item a{
+    font-size: 1.5rem;
+}
+.headerRobux__item a:hover{
+    background-color: #aff5f1;
+}
+.headerRobux__item a::first-letter{
+    display: flex;
+}
+.headerRobux__item p{
+    color: #000000;
+}
+
+.headerSetting i{
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 20%;
+}
+.headerSetting i:hover{
+    background-color: #c4c4c4;
+    color: red;
+}
+
+nav{
+    background-color: rgb(243, 243, 243);
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+nav li{
+    padding: 10px 10px;
+}
+nav li:hover{
+    background-color: darkred;
+    color: #ffff;
+}
+
+.game{
+    display: flex;
+    padding: 15px;
+}
+.game img{
+    width: 70%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.game__join{
+    margin: 5px;
+}
+.game__join h2{
+    font-size: 2rem;
+}
+.game__join h5{
+    font-size: 1.1rem;
+}
+.game__join p{
+    margin-bottom: 200px;
+}
+.game__join a{
+    background-color: rgb(0, 110, 255);
+    border-radius: 8px;
+    padding: 20px 180px;
+    margin: 10px 0;
+    display: block;
+    color: #f8f8f8ec;
+    font-size: 1.5rem;
+}
+
+.game__rate i{
+    font-size: 1.5rem;
+    margin: 0 30px;
+    color: #df1d0f;
+}
+
+.descr{
+    padding: 10px;
+}
+.descr p{
+    font-size: 1.2rem;
+}
